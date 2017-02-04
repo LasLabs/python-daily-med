@@ -1,0 +1,46 @@
+daily_med package
+=================
+
+Subpackages
+-----------
+
+.. toctree::
+
+    daily_med.models
+    daily_med.tests
+
+Submodules
+----------
+
+daily_med.daily_med module
+--------------------------
+
+.. automodule:: daily_med.daily_med
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+daily_med.exceptions module
+---------------------------
+
+.. automodule:: daily_med.exceptions
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+daily_med.request_paginator module
+----------------------------------
+
+.. automodule:: daily_med.request_paginator
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: daily_med
+    :members:
+    :undoc-members:
+    :show-inheritance:

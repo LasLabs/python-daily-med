@@ -1,0 +1,400 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>daily_med package &#8212; python-daily-med 0.1.0b41 documentation</title>
+    
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1.0b41',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="daily_med.models package" href="daily_med.models.html" />
+    <link rel="prev" title="Welcome to python-daily-med’s documentation!" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="daily-med-package">
+<h1>daily_med package<a class="headerlink" href="#daily-med-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="subpackages">
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="daily_med.models.html">daily_med.models package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="daily_med.models.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="daily_med.models.html#module-daily_med.models.base_model">daily_med.models.base_model module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="daily_med.models.html#module-daily_med.models.spl">daily_med.models.spl module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="daily_med.models.html#module-daily_med.models">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="daily_med.tests.html">daily_med.tests package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="daily_med.tests.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="daily_med.tests.html#module-daily_med.tests.test_base_model">daily_med.tests.test_base_model module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="daily_med.tests.html#module-daily_med.tests.test_daily_med">daily_med.tests.test_daily_med module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="daily_med.tests.html#module-daily_med.tests.test_request_paginator">daily_med.tests.test_request_paginator module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="daily_med.tests.html#module-daily_med.tests.test_spl_document">daily_med.tests.test_spl_document module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="daily_med.tests.html#module-daily_med.tests">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-daily_med.daily_med">
+<span id="daily-med-daily-med-module"></span><h2>daily_med.daily_med module<a class="headerlink" href="#module-daily_med.daily_med" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="daily_med.daily_med.DailyMed">
+<em class="property">class </em><code class="descclassname">daily_med.daily_med.</code><code class="descname">DailyMed</code><a class="reference internal" href="_modules/daily_med/daily_med.html#DailyMed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#daily_med.daily_med.DailyMed" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/2/library/functions.html#object" title="(in Python v2.7)"><code class="xref py py-class docutils literal"><span class="pre">object</span></code></a></p>
+<p>It provides Python bindings to the Daily Med API.</p>
+<p>Additional documentation regarding the API endpoints is available at
+<a class="reference external" href="https://dailymed.nlm.nih.gov/dailymed/app-support-web-services.cfm">https://dailymed.nlm.nih.gov/dailymed/app-support-web-services.cfm</a></p>
+<dl class="attribute">
+<dt id="daily_med.daily_med.DailyMed.API_BASE">
+<code class="descname">API_BASE</code><em class="property"> = 'https://dailymed.nlm.nih.gov/dailymed/services/v2'</em><a class="headerlink" href="#daily_med.daily_med.DailyMed.API_BASE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="daily_med.daily_med.DailyMed.call">
+<code class="descname">call</code><span class="sig-paren">(</span><em>endpoint</em>, <em>output_type</em>, <em>params=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/daily_med/daily_med.html#DailyMed.call"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#daily_med.daily_med.DailyMed.call" title="Permalink to this definition">¶</a></dt>
+<dd><p>It calls the remote endpoint and returns the result, if success.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>endpoint</strong> (<a class="reference external" href="https://docs.python.org/2/library/functions.html#str" title="(in Python v2.7)"><em>str</em></a>) &#8211; DailyMed endpoint to call (e.g. <code class="docutils literal"><span class="pre">ndcs</span></code>).</li>
+<li><strong>output_type</strong> (<a class="reference external" href="https://docs.python.org/2/library/functions.html#type" title="(in Python v2.7)"><em>type</em></a>) &#8211; Class type to output. Object will be
+instantiated using the current row before output.</li>
+<li><strong>params</strong> &#8211; (dict|bytes) Data to be sent in the query string
+for the Request.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><dl class="docutils">
+<dt>Iterator representing all pages of the call</dt>
+<dd><p class="first last">result.</p>
+</dd>
+</dl>
+</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first"><a class="reference internal" href="#daily_med.request_paginator.RequestPaginator" title="daily_med.request_paginator.RequestPaginator">RequestPaginator</a></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first last"><code class="xref py py-exc docutils literal"><span class="pre">DailyMedRemoteException</span></code> &#8211; In the event of something that is TBD.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="daily_med.daily_med.DailyMed.get_spl">
+<code class="descname">get_spl</code><span class="sig-paren">(</span><em>set_id</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/daily_med/daily_med.html#DailyMed.get_spl"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#daily_med.daily_med.DailyMed.get_spl" title="Permalink to this definition">¶</a></dt>
+<dd><p>get_spl returns an SPLDocument for the set_id.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>set_id</strong> (<a class="reference external" href="https://docs.python.org/2/library/functions.html#str" title="(in Python v2.7)"><em>str</em></a>) &#8211; Set ID of the label.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">Representation of the Structured Product Label.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference internal" href="daily_med.models.html#daily_med.models.spl.SPLDocument" title="daily_med.models.spl.SPLDocument">SPLDocument</a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="daily_med.daily_med.DailyMed.get_spls">
+<code class="descname">get_spls</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/daily_med/daily_med.html#DailyMed.get_spls"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#daily_med.daily_med.DailyMed.get_spls" title="Permalink to this definition">¶</a></dt>
+<dd><p>get_spls returns an iterator of matching SPL Meta Data.</p>
+<p>For more information about SPLs (Structured Product Labels), please
+visit the FDA documentation.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>application_number</strong> (<a class="reference external" href="https://docs.python.org/2/library/functions.html#str" title="(in Python v2.7)"><em>str</em></a>) &#8211; New Drug Application (NDA) number. See
+the documentation for resource /applicationnumbers for more
+information.</li>
+<li><strong>boxed_warning</strong> (<a class="reference external" href="https://docs.python.org/2/library/functions.html#bool" title="(in Python v2.7)"><em>bool</em></a>) &#8211; Whether or not a drug contains a boxed
+warning.</li>
+<li><strong>dea_schedule_code</strong> (<a class="reference external" href="https://docs.python.org/2/library/functions.html#str" title="(in Python v2.7)"><em>str</em></a>) &#8211; <p>Code representing a Drug Enforcement
+Administration Schedule for drugs. See the FDA documentation
+for DEA Schedules for more information. Acceptable values are
+listed below:</p>
+<blockquote>
+<div><ul>
+<li>none - Not Scheduled.</li>
+<li>C48672 - CI.</li>
+<li>C48675 - CII.</li>
+<li>C48676 - CIII.</li>
+<li>C48677 - CIV.</li>
+<li>C48679 - CV.</li>
+</ul>
+</div></blockquote>
+</li>
+<li><strong>doctype</strong> (<a class="reference external" href="https://docs.python.org/2/library/functions.html#str" title="(in Python v2.7)"><em>str</em></a>) &#8211; FDA&#8217;s Logical Observation Identifiers Names
+and Codes system. Determines the type of document or content
+of a label.</li>
+<li><strong>drug_class_code</strong> (<a class="reference external" href="https://docs.python.org/2/library/functions.html#str" title="(in Python v2.7)"><em>str</em></a>) &#8211; Code representing a pharmacologic drug
+class. See the documentation for resource /drugclasses
+for more information.</li>
+<li><strong>drug_class_coding_system</strong> (<a class="reference external" href="https://docs.python.org/2/library/functions.html#str" title="(in Python v2.7)"><em>str</em></a>) &#8211; <p>Used with drug_class_code
+to specify the coding system of the drug class code.
+Acceptable values are listed below:</p>
+<blockquote>
+<div><ul>
+<li>2.16.840.1.113883.3.26.1.5 - National Drug File
+Reference Terminology. (Default value)</li>
+</ul>
+</div></blockquote>
+</li>
+<li><strong>drug_name</strong> (<a class="reference external" href="https://docs.python.org/2/library/functions.html#str" title="(in Python v2.7)"><em>str</em></a>) &#8211; Generic or brand name. See the documentation
+for resource /drugnames for more information.</li>
+<li><strong>name_type</strong> (<a class="reference external" href="https://docs.python.org/2/library/functions.html#str" title="(in Python v2.7)"><em>str</em></a>) &#8211; <p>Used with drug_name to specify whether the given
+name is a generic name or brand name. Acceptable values are
+listed below:</p>
+<blockquote>
+<div><ul>
+<li><cite>g</cite> or <cite>generic</cite> - Generic name.</li>
+<li><cite>b</cite> or <cite>brand</cite> - Brand name.</li>
+<li><cite>both</cite> - Either generic or brand name. (Default value)</li>
+</ul>
+</div></blockquote>
+</li>
+<li><strong>labeler</strong> (<a class="reference external" href="https://docs.python.org/2/library/functions.html#str" title="(in Python v2.7)"><em>str</em></a>) &#8211; Name of labeler for the drug.</li>
+<li><strong>manufacturer</strong> (<a class="reference external" href="https://docs.python.org/2/library/functions.html#str" title="(in Python v2.7)"><em>str</em></a>) &#8211; Name of manufacturer for the drug.</li>
+<li><strong>marketing_category_code</strong> (<a class="reference external" href="https://docs.python.org/2/library/functions.html#str" title="(in Python v2.7)"><em>str</em></a>) &#8211; FDA&#8217;s Marketing Categories for
+types of drugs. See the FDA documentation for Marketing
+Category for more information.</li>
+<li><strong>ndc</strong> (<a class="reference external" href="https://docs.python.org/2/library/functions.html#str" title="(in Python v2.7)"><em>str</em></a>) &#8211; National Drug Code (NDC). See the documentation for
+resource /ndcs for more information.</li>
+<li><strong>published_date</strong> (<a class="reference external" href="https://docs.python.org/2/library/functions.html#str" title="(in Python v2.7)"><em>str</em></a>) &#8211; The date that the drug was published on
+DailyMed. The accepted date format is YYYY-MM-DD
+(ex. 2015-09-10)</li>
+<li><strong>published_date_comparison</strong> (<a class="reference external" href="https://docs.python.org/2/library/functions.html#str" title="(in Python v2.7)"><em>str</em></a>) &#8211; <p>Used with published_date to
+specify the type of comparison used with the date. Acceptable
+values are listed below:</p>
+<blockquote>
+<div><ul>
+<li><cite>lt</cite> - Drugs that have a published date Less Than
+the published_date parameter.</li>
+<li><cite>lte</cite> - Drugs that have a published date Less Than
+or Equal To the published_date parameter.</li>
+<li><dl class="first docutils">
+<dt><cite>gt</cite> - Drugs that have a published date Greater Than</dt>
+<dd>the published_date parameter.</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt><cite>gte</cite> - Drugs that have a published date Greater Than</dt>
+<dd>or Equal To the published_date parameter.</dd>
+</dl>
+</li>
+<li><cite>eq</cite> - Drugs that have a published date Equal
+To the published_date parameter (Default value)</li>
+</ul>
+</div></blockquote>
+</li>
+<li><strong>rxcui</strong> (<a class="reference external" href="https://docs.python.org/2/library/functions.html#str" title="(in Python v2.7)"><em>str</em></a>) &#8211; RxNorm Concept Unique Identifier (RXCUI) code.
+See the documentation for resource /rxcuis for more information.</li>
+<li><strong>setid</strong> (<a class="reference external" href="https://docs.python.org/2/library/functions.html#str" title="(in Python v2.7)"><em>str</em></a>) &#8211; Set ID of a label.</li>
+<li><strong>unii_code</strong> (<a class="reference external" href="https://docs.python.org/2/library/functions.html#str" title="(in Python v2.7)"><em>str</em></a>) &#8211; Unique Ingredient Identifier (UNII) code.
+See the documentation for resource /uniis for more information.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-daily_med.exceptions">
+<span id="daily-med-exceptions-module"></span><h2>daily_med.exceptions module<a class="headerlink" href="#module-daily_med.exceptions" title="Permalink to this headline">¶</a></h2>
+<dl class="exception">
+<dt id="daily_med.exceptions.DailyMedRemoteException">
+<em class="property">exception </em><code class="descclassname">daily_med.exceptions.</code><code class="descname">DailyMedRemoteException</code><a class="reference internal" href="_modules/daily_med/exceptions.html#DailyMedRemoteException"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#daily_med.exceptions.DailyMedRemoteException" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">OSError</span></code></p>
+<p>DailyMedRemoteException is raised to indicate an error from the API.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-daily_med.request_paginator">
+<span id="daily-med-request-paginator-module"></span><h2>daily_med.request_paginator module<a class="headerlink" href="#module-daily_med.request_paginator" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="daily_med.request_paginator.RequestPaginator">
+<em class="property">class </em><code class="descclassname">daily_med.request_paginator.</code><code class="descname">RequestPaginator</code><span class="sig-paren">(</span><em>endpoint</em>, <em>params=None</em>, <em>page_size=25</em>, <em>page_start=1</em>, <em>output_type=&lt;class 'dict'&gt;</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/daily_med/request_paginator.html#RequestPaginator"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#daily_med.request_paginator.RequestPaginator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference external" href="https://docs.python.org/2/library/functions.html#object" title="(in Python v2.7)"><code class="xref py py-class docutils literal"><span class="pre">object</span></code></a></p>
+<p>RequestPaginator provides an iterator based upon an initial request.</p>
+<dl class="attribute">
+<dt id="daily_med.request_paginator.RequestPaginator.PAGE_CURRENT">
+<code class="descname">PAGE_CURRENT</code><em class="property"> = 'current_page'</em><a class="headerlink" href="#daily_med.request_paginator.RequestPaginator.PAGE_CURRENT" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="daily_med.request_paginator.RequestPaginator.PAGE_DATA">
+<code class="descname">PAGE_DATA</code><em class="property"> = 'data'</em><a class="headerlink" href="#daily_med.request_paginator.RequestPaginator.PAGE_DATA" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="daily_med.request_paginator.RequestPaginator.PAGE_META">
+<code class="descname">PAGE_META</code><em class="property"> = 'metadata'</em><a class="headerlink" href="#daily_med.request_paginator.RequestPaginator.PAGE_META" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="daily_med.request_paginator.RequestPaginator.PAGE_NUM">
+<code class="descname">PAGE_NUM</code><em class="property"> = 'page'</em><a class="headerlink" href="#daily_med.request_paginator.RequestPaginator.PAGE_NUM" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="daily_med.request_paginator.RequestPaginator.PAGE_SIZE">
+<code class="descname">PAGE_SIZE</code><em class="property"> = 'pagesize'</em><a class="headerlink" href="#daily_med.request_paginator.RequestPaginator.PAGE_SIZE" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="daily_med.request_paginator.RequestPaginator.PAGE_TOTAL">
+<code class="descname">PAGE_TOTAL</code><em class="property"> = 'total_pages'</em><a class="headerlink" href="#daily_med.request_paginator.RequestPaginator.PAGE_TOTAL" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="daily_med.request_paginator.RequestPaginator.SSL_VERIFY">
+<code class="descname">SSL_VERIFY</code><em class="property"> = True</em><a class="headerlink" href="#daily_med.request_paginator.RequestPaginator.SSL_VERIFY" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="daily_med.request_paginator.RequestPaginator.call">
+<code class="descname">call</code><span class="sig-paren">(</span><em>params</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/daily_med/request_paginator.html#RequestPaginator.call"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#daily_med.request_paginator.RequestPaginator.call" title="Permalink to this definition">¶</a></dt>
+<dd><p>It calls the remote endpoint and returns the JSON decoded result.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-daily_med">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-daily_med" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">python-daily-med</a></h1>
+
+
+
+
+
+
+<p>
+<iframe src="https://ghbtns.com/github-btn.html?user=LasLabs&repo=python-daily-med&type=watch&count=true&size=large&v=2"
+  allowtransparency="true" frameborder="0" scrolling="0" width="200px" height="35px"></iframe>
+</p>
+
+
+
+
+
+    
+
+<p>
+<a href="https://travis-ci.org/LasLabs/python-daily-med">
+    <img
+        alt="https://secure.travis-ci.org/LasLabs/python-daily-med.svg?branch=master"
+        src="https://secure.travis-ci.org/LasLabs/python-daily-med.svg?branch=master"
+    />
+</a>
+</p>
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">daily_med package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#subpackages">Subpackages</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="daily_med.models.html">daily_med.models package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="daily_med.tests.html">daily_med.tests package</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-daily_med.daily_med">daily_med.daily_med module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-daily_med.exceptions">daily_med.exceptions module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-daily_med.request_paginator">daily_med.request_paginator module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-daily_med">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="setup.html">setup module</a></li>
+</ul>
+
+
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017 LasLabs Inc..
+      
+      |
+      <a href="_sources/daily_med.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+    <a href="https://github.com/LasLabs/python-daily-med" class="github">
+        <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"  class="github"/>
+    </a>
+    
+
+    
+  </body>
+</html>
