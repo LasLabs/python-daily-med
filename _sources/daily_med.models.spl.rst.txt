@@ -1,0 +1,7 @@
+daily_med.models.spl module
+===========================
+
+.. automodule:: daily_med.models.spl
+    :members:
+    :undoc-members:
+    :show-inheritance:

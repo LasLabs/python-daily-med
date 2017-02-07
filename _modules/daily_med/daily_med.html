@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>daily_med.daily_med &#8212; python-daily-med 0.1.0b57 documentation</title>
+    <title>daily_med.daily_med &#8212; python-daily-med 0.1.0b68 documentation</title>
     
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
@@ -14,7 +14,7 @@
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    '../../',
-        VERSION:     '0.1.0b57',
+        VERSION:     '0.1.0b68',
         COLLAPSE_INDEX: false,
         FILE_SUFFIX: '.html',
         HAS_SOURCE:  true,
@@ -55,7 +55,7 @@
 <span class="kn">from</span> <span class="nn">.request_paginator</span> <span class="k">import</span> <span class="n">RequestPaginator</span>
 
 
-<div class="viewcode-block" id="DailyMed"><a class="viewcode-back" href="../../daily_med.html#daily_med.daily_med.DailyMed">[docs]</a><span class="k">class</span> <span class="nc">DailyMed</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+<div class="viewcode-block" id="DailyMed"><a class="viewcode-back" href="../../daily_med.daily_med.html#daily_med.daily_med.DailyMed">[docs]</a><span class="k">class</span> <span class="nc">DailyMed</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot; It provides Python bindings to the Daily Med API.</span>
 
 <span class="sd">    Additional documentation regarding the API endpoints is available at</span>
@@ -64,7 +64,7 @@
 
     <span class="n">API_BASE</span> <span class="o">=</span> <span class="s1">&#39;https://dailymed.nlm.nih.gov/dailymed/services/v2&#39;</span>
 
-<div class="viewcode-block" id="DailyMed.get_spls"><a class="viewcode-back" href="../../daily_med.html#daily_med.daily_med.DailyMed.get_spls">[docs]</a>    <span class="k">def</span> <span class="nf">get_spls</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+<div class="viewcode-block" id="DailyMed.get_spls"><a class="viewcode-back" href="../../daily_med.daily_med.html#daily_med.daily_med.DailyMed.get_spls">[docs]</a>    <span class="k">def</span> <span class="nf">get_spls</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot; get_spls returns an iterator of matching SPL Meta Data.</span>
 
 <span class="sd">        For more information about SPLs (Structured Product Labels), please</span>
@@ -138,7 +138,7 @@
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">call</span><span class="p">(</span><span class="s1">&#39;spls&#39;</span><span class="p">,</span> <span class="n">models</span><span class="o">.</span><span class="n">SPL</span><span class="p">,</span> <span class="n">kwargs</span><span class="p">)</span></div>
 
-<div class="viewcode-block" id="DailyMed.get_spl"><a class="viewcode-back" href="../../daily_med.html#daily_med.daily_med.DailyMed.get_spl">[docs]</a>    <span class="k">def</span> <span class="nf">get_spl</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">set_id</span><span class="p">):</span>
+<div class="viewcode-block" id="DailyMed.get_spl"><a class="viewcode-back" href="../../daily_med.daily_med.html#daily_med.daily_med.DailyMed.get_spl">[docs]</a>    <span class="k">def</span> <span class="nf">get_spl</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">set_id</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot; get_spl returns an SPLDocument for the set_id.</span>
 
 <span class="sd">        Args:</span>
@@ -163,7 +163,7 @@
             <span class="n">document</span><span class="o">=</span><span class="n">spl_document</span><span class="p">,</span>
         <span class="p">)</span></div>
 
-<div class="viewcode-block" id="DailyMed.call"><a class="viewcode-back" href="../../daily_med.html#daily_med.daily_med.DailyMed.call">[docs]</a>    <span class="k">def</span> <span class="nf">call</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">endpoint</span><span class="p">,</span> <span class="n">output_type</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+<div class="viewcode-block" id="DailyMed.call"><a class="viewcode-back" href="../../daily_med.daily_med.html#daily_med.daily_med.DailyMed.call">[docs]</a>    <span class="k">def</span> <span class="nf">call</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">endpoint</span><span class="p">,</span> <span class="n">output_type</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot; It calls the remote endpoint and returns the result, if success.</span>
 
 <span class="sd">        Args:</span>

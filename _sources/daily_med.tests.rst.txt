@@ -4,30 +4,11 @@ daily_med.tests package
 Submodules
 ----------
 
-daily_med.tests.test_daily_med module
--------------------------------------
+.. toctree::
 
-.. automodule:: daily_med.tests.test_daily_med
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-daily_med.tests.test_request_paginator module
----------------------------------------------
-
-.. automodule:: daily_med.tests.test_request_paginator
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-daily_med.tests.test_spl_document module
-----------------------------------------
-
-.. automodule:: daily_med.tests.test_spl_document
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
+   daily_med.tests.test_daily_med
+   daily_med.tests.test_request_paginator
+   daily_med.tests.test_spl_document
 
 Module contents
 ---------------

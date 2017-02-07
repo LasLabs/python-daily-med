@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>daily_med.tests.test_daily_med &#8212; python-daily-med 0.1.0b57 documentation</title>
+    <title>daily_med.tests.test_daily_med &#8212; python-daily-med 0.1.0b68 documentation</title>
     
     <link rel="stylesheet" href="../../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
@@ -14,7 +14,7 @@
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    '../../../',
-        VERSION:     '0.1.0b57',
+        VERSION:     '0.1.0b68',
         COLLAPSE_INDEX: false,
         FILE_SUFFIX: '.html',
         HAS_SOURCE:  true,
@@ -59,12 +59,12 @@
 <span class="n">mock_path</span> <span class="o">=</span> <span class="s1">&#39;daily_med.daily_med&#39;</span>
 
 
-<div class="viewcode-block" id="TestDailyMed"><a class="viewcode-back" href="../../../daily_med.tests.html#daily_med.tests.test_daily_med.TestDailyMed">[docs]</a><span class="k">class</span> <span class="nc">TestDailyMed</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">TestCase</span><span class="p">):</span>
+<div class="viewcode-block" id="TestDailyMed"><a class="viewcode-back" href="../../../daily_med.tests.test_daily_med.html#daily_med.tests.test_daily_med.TestDailyMed">[docs]</a><span class="k">class</span> <span class="nc">TestDailyMed</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">TestCase</span><span class="p">):</span>
 
-<div class="viewcode-block" id="TestDailyMed.setUp"><a class="viewcode-back" href="../../../daily_med.tests.html#daily_med.tests.test_daily_med.TestDailyMed.setUp">[docs]</a>    <span class="k">def</span> <span class="nf">setUp</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<div class="viewcode-block" id="TestDailyMed.setUp"><a class="viewcode-back" href="../../../daily_med.tests.test_daily_med.html#daily_med.tests.test_daily_med.TestDailyMed.setUp">[docs]</a>    <span class="k">def</span> <span class="nf">setUp</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">dm</span> <span class="o">=</span> <span class="n">DailyMed</span><span class="p">()</span></div>
 
-<div class="viewcode-block" id="TestDailyMed.get_sample_xml"><a class="viewcode-back" href="../../../daily_med.tests.html#daily_med.tests.test_daily_med.TestDailyMed.get_sample_xml">[docs]</a>    <span class="k">def</span> <span class="nf">get_sample_xml</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<div class="viewcode-block" id="TestDailyMed.get_sample_xml"><a class="viewcode-back" href="../../../daily_med.tests.test_daily_med.html#daily_med.tests.test_daily_med.TestDailyMed.get_sample_xml">[docs]</a>    <span class="k">def</span> <span class="nf">get_sample_xml</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="n">xml_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span>
             <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)),</span> <span class="s1">&#39;spl_doc_1.xml&#39;</span><span class="p">,</span>
         <span class="p">)</span>
@@ -72,7 +72,7 @@
             <span class="k">return</span> <span class="n">fh</span><span class="o">.</span><span class="n">read</span><span class="p">()</span></div>
 
     <span class="nd">@mock</span><span class="o">.</span><span class="n">patch</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">%s</span><span class="s1">.RequestPaginator&#39;</span> <span class="o">%</span> <span class="n">mock_path</span><span class="p">)</span>
-<div class="viewcode-block" id="TestDailyMed.test_call"><a class="viewcode-back" href="../../../daily_med.tests.html#daily_med.tests.test_daily_med.TestDailyMed.test_call">[docs]</a>    <span class="k">def</span> <span class="nf">test_call</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">paginator</span><span class="p">):</span>
+<div class="viewcode-block" id="TestDailyMed.test_call"><a class="viewcode-back" href="../../../daily_med.tests.test_daily_med.html#daily_med.tests.test_daily_med.TestDailyMed.test_call">[docs]</a>    <span class="k">def</span> <span class="nf">test_call</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">paginator</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot; It should create a RequestPaginator w/ the proper args. &quot;&quot;&quot;</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">dm</span><span class="o">.</span><span class="n">API_BASE</span> <span class="o">=</span> <span class="s1">&#39;base&#39;</span>
         <span class="n">params</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;params&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">}</span>
@@ -82,13 +82,13 @@
         <span class="p">)</span></div>
 
     <span class="nd">@mock</span><span class="o">.</span><span class="n">patch</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">%s</span><span class="s1">.RequestPaginator&#39;</span> <span class="o">%</span> <span class="n">mock_path</span><span class="p">)</span>
-<div class="viewcode-block" id="TestDailyMed.test_call_return"><a class="viewcode-back" href="../../../daily_med.tests.html#daily_med.tests.test_daily_med.TestDailyMed.test_call_return">[docs]</a>    <span class="k">def</span> <span class="nf">test_call_return</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">paginator</span><span class="p">):</span>
+<div class="viewcode-block" id="TestDailyMed.test_call_return"><a class="viewcode-back" href="../../../daily_med.tests.test_daily_med.html#daily_med.tests.test_daily_med.TestDailyMed.test_call_return">[docs]</a>    <span class="k">def</span> <span class="nf">test_call_return</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">paginator</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot; It should return the paginator. &quot;&quot;&quot;</span>
         <span class="n">res</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">dm</span><span class="o">.</span><span class="n">call</span><span class="p">(</span><span class="s1">&#39;endpoint&#39;</span><span class="p">,</span> <span class="n">BaseModel</span><span class="p">)</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">res</span><span class="p">,</span> <span class="n">paginator</span><span class="p">())</span></div>
 
     <span class="nd">@mock</span><span class="o">.</span><span class="n">patch</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">%s</span><span class="s1">.requests&#39;</span> <span class="o">%</span> <span class="n">mock_path</span><span class="p">)</span>
-<div class="viewcode-block" id="TestDailyMed.test_get_spl_request"><a class="viewcode-back" href="../../../daily_med.tests.html#daily_med.tests.test_daily_med.TestDailyMed.test_get_spl_request">[docs]</a>    <span class="k">def</span> <span class="nf">test_get_spl_request</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">requests</span><span class="p">):</span>
+<div class="viewcode-block" id="TestDailyMed.test_get_spl_request"><a class="viewcode-back" href="../../../daily_med.tests.test_daily_med.html#daily_med.tests.test_daily_med.TestDailyMed.test_get_spl_request">[docs]</a>    <span class="k">def</span> <span class="nf">test_get_spl_request</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">requests</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot; It should request the proper URI. &quot;&quot;&quot;</span>
         <span class="n">text_mock</span> <span class="o">=</span> <span class="n">mock</span><span class="o">.</span><span class="n">MagicMock</span><span class="p">()</span>
         <span class="n">text_mock</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_sample_xml</span><span class="p">()</span>
@@ -100,7 +100,7 @@
         <span class="p">)</span></div>
 
     <span class="nd">@mock</span><span class="o">.</span><span class="n">patch</span><span class="p">(</span><span class="s1">&#39;</span><span class="si">%s</span><span class="s1">.requests&#39;</span> <span class="o">%</span> <span class="n">mock_path</span><span class="p">)</span>
-<div class="viewcode-block" id="TestDailyMed.test_get_spl_return"><a class="viewcode-back" href="../../../daily_med.tests.html#daily_med.tests.test_daily_med.TestDailyMed.test_get_spl_return">[docs]</a>    <span class="k">def</span> <span class="nf">test_get_spl_return</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">requests</span><span class="p">):</span>
+<div class="viewcode-block" id="TestDailyMed.test_get_spl_return"><a class="viewcode-back" href="../../../daily_med.tests.test_daily_med.html#daily_med.tests.test_daily_med.TestDailyMed.test_get_spl_return">[docs]</a>    <span class="k">def</span> <span class="nf">test_get_spl_return</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">requests</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot; It should return an SPLDocument &quot;&quot;&quot;</span>
         <span class="n">text_mock</span> <span class="o">=</span> <span class="n">mock</span><span class="o">.</span><span class="n">MagicMock</span><span class="p">()</span>
         <span class="n">text_mock</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_sample_xml</span><span class="p">()</span>
@@ -108,7 +108,7 @@
         <span class="n">res</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">dm</span><span class="o">.</span><span class="n">get_spl</span><span class="p">(</span><span class="s1">&#39;set_id&#39;</span><span class="p">)</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">assertIsInstance</span><span class="p">(</span><span class="n">res</span><span class="p">,</span> <span class="n">SPL</span><span class="p">)</span></div>
 
-<div class="viewcode-block" id="TestDailyMed.test_get_spls"><a class="viewcode-back" href="../../../daily_med.tests.html#daily_med.tests.test_daily_med.TestDailyMed.test_get_spls">[docs]</a>    <span class="k">def</span> <span class="nf">test_get_spls</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<div class="viewcode-block" id="TestDailyMed.test_get_spls"><a class="viewcode-back" href="../../../daily_med.tests.test_daily_med.html#daily_med.tests.test_daily_med.TestDailyMed.test_get_spls">[docs]</a>    <span class="k">def</span> <span class="nf">test_get_spls</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot; It should make the proper call and return it. &quot;&quot;&quot;</span>
         <span class="k">with</span> <span class="n">mock</span><span class="o">.</span><span class="n">patch</span><span class="o">.</span><span class="n">object</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dm</span><span class="p">,</span> <span class="s1">&#39;call&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">call</span><span class="p">:</span>
             <span class="n">kwargs</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;kwargs&#39;</span><span class="p">:</span> <span class="s1">&#39;sZdsdfd&#39;</span><span class="p">}</span>

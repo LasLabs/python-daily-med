@@ -1,0 +1,7 @@
+daily_med.request_paginator module
+==================================
+
+.. automodule:: daily_med.request_paginator
+    :members:
+    :undoc-members:
+    :show-inheritance:

@@ -1,0 +1,7 @@
+daily_med.exceptions module
+===========================
+
+.. automodule:: daily_med.exceptions
+    :members:
+    :undoc-members:
+    :show-inheritance:

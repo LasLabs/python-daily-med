@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>daily_med.tests package &#8212; python-daily-med 0.1.0b57 documentation</title>
+    <title>daily_med.tests package &#8212; python-daily-med 0.1.0b68 documentation</title>
     
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -14,7 +14,7 @@
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
-        VERSION:     '0.1.0b57',
+        VERSION:     '0.1.0b68',
         COLLAPSE_INDEX: false,
         FILE_SUFFIX: '.html',
         HAS_SOURCE:  true,
@@ -26,8 +26,8 @@
     <script type="text/javascript" src="_static/doctools.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="setup module" href="setup.html" />
-    <link rel="prev" title="daily_med.models package" href="daily_med.models.html" />
+    <link rel="next" title="daily_med.tests.test_daily_med module" href="daily_med.tests.test_daily_med.html" />
+    <link rel="prev" title="daily_med.models.spl_document module" href="daily_med.models.spl_document.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -47,136 +47,13 @@
 <h1>daily_med.tests package<a class="headerlink" href="#daily-med-tests-package" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="submodules">
 <h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="daily_med.tests.test_daily_med.html">daily_med.tests.test_daily_med module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="daily_med.tests.test_request_paginator.html">daily_med.tests.test_request_paginator module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="daily_med.tests.test_spl_document.html">daily_med.tests.test_spl_document module</a></li>
+</ul>
 </div>
-<div class="section" id="module-daily_med.tests.test_daily_med">
-<span id="daily-med-tests-test-daily-med-module"></span><h2>daily_med.tests.test_daily_med module<a class="headerlink" href="#module-daily_med.tests.test_daily_med" title="Permalink to this headline">¶</a></h2>
-<dl class="class">
-<dt id="daily_med.tests.test_daily_med.TestDailyMed">
-<em class="property">class </em><code class="descclassname">daily_med.tests.test_daily_med.</code><code class="descname">TestDailyMed</code><span class="sig-paren">(</span><em>methodName='runTest'</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/daily_med/tests/test_daily_med.html#TestDailyMed"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#daily_med.tests.test_daily_med.TestDailyMed" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">unittest.case.TestCase</span></code></p>
-<dl class="method">
-<dt id="daily_med.tests.test_daily_med.TestDailyMed.get_sample_xml">
-<code class="descname">get_sample_xml</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/daily_med/tests/test_daily_med.html#TestDailyMed.get_sample_xml"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#daily_med.tests.test_daily_med.TestDailyMed.get_sample_xml" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="method">
-<dt id="daily_med.tests.test_daily_med.TestDailyMed.setUp">
-<code class="descname">setUp</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/daily_med/tests/test_daily_med.html#TestDailyMed.setUp"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#daily_med.tests.test_daily_med.TestDailyMed.setUp" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="method">
-<dt id="daily_med.tests.test_daily_med.TestDailyMed.test_call">
-<code class="descname">test_call</code><span class="sig-paren">(</span><em>*args</em>, <em>**keywargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/daily_med/tests/test_daily_med.html#TestDailyMed.test_call"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#daily_med.tests.test_daily_med.TestDailyMed.test_call" title="Permalink to this definition">¶</a></dt>
-<dd><p>It should create a RequestPaginator w/ the proper args.</p>
-</dd></dl>
-
-<dl class="method">
-<dt id="daily_med.tests.test_daily_med.TestDailyMed.test_call_return">
-<code class="descname">test_call_return</code><span class="sig-paren">(</span><em>*args</em>, <em>**keywargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/daily_med/tests/test_daily_med.html#TestDailyMed.test_call_return"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#daily_med.tests.test_daily_med.TestDailyMed.test_call_return" title="Permalink to this definition">¶</a></dt>
-<dd><p>It should return the paginator.</p>
-</dd></dl>
-
-<dl class="method">
-<dt id="daily_med.tests.test_daily_med.TestDailyMed.test_get_spl_request">
-<code class="descname">test_get_spl_request</code><span class="sig-paren">(</span><em>*args</em>, <em>**keywargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/daily_med/tests/test_daily_med.html#TestDailyMed.test_get_spl_request"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#daily_med.tests.test_daily_med.TestDailyMed.test_get_spl_request" title="Permalink to this definition">¶</a></dt>
-<dd><p>It should request the proper URI.</p>
-</dd></dl>
-
-<dl class="method">
-<dt id="daily_med.tests.test_daily_med.TestDailyMed.test_get_spl_return">
-<code class="descname">test_get_spl_return</code><span class="sig-paren">(</span><em>*args</em>, <em>**keywargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/daily_med/tests/test_daily_med.html#TestDailyMed.test_get_spl_return"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#daily_med.tests.test_daily_med.TestDailyMed.test_get_spl_return" title="Permalink to this definition">¶</a></dt>
-<dd><p>It should return an SPLDocument</p>
-</dd></dl>
-
-<dl class="method">
-<dt id="daily_med.tests.test_daily_med.TestDailyMed.test_get_spls">
-<code class="descname">test_get_spls</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/daily_med/tests/test_daily_med.html#TestDailyMed.test_get_spls"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#daily_med.tests.test_daily_med.TestDailyMed.test_get_spls" title="Permalink to this definition">¶</a></dt>
-<dd><p>It should make the proper call and return it.</p>
-</dd></dl>
-
-</dd></dl>
-
-</div>
-<div class="section" id="module-daily_med.tests.test_request_paginator">
-<span id="daily-med-tests-test-request-paginator-module"></span><h2>daily_med.tests.test_request_paginator module<a class="headerlink" href="#module-daily_med.tests.test_request_paginator" title="Permalink to this headline">¶</a></h2>
-<dl class="class">
-<dt id="daily_med.tests.test_request_paginator.TestRequestPaginator">
-<em class="property">class </em><code class="descclassname">daily_med.tests.test_request_paginator.</code><code class="descname">TestRequestPaginator</code><span class="sig-paren">(</span><em>methodName='runTest'</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/daily_med/tests/test_request_paginator.html#TestRequestPaginator"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#daily_med.tests.test_request_paginator.TestRequestPaginator" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">unittest.case.TestCase</span></code></p>
-<dl class="method">
-<dt id="daily_med.tests.test_request_paginator.TestRequestPaginator.setUp">
-<code class="descname">setUp</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/daily_med/tests/test_request_paginator.html#TestRequestPaginator.setUp"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#daily_med.tests.test_request_paginator.TestRequestPaginator.setUp" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="method">
-<dt id="daily_med.tests.test_request_paginator.TestRequestPaginator.test_call_gets">
-<code class="descname">test_call_gets</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/daily_med/tests/test_request_paginator.html#TestRequestPaginator.test_call_gets"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#daily_med.tests.test_request_paginator.TestRequestPaginator.test_call_gets" title="Permalink to this definition">¶</a></dt>
-<dd><p>It should call the session with proper args.</p>
-</dd></dl>
-
-<dl class="method">
-<dt id="daily_med.tests.test_request_paginator.TestRequestPaginator.test_call_return">
-<code class="descname">test_call_return</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/daily_med/tests/test_request_paginator.html#TestRequestPaginator.test_call_return"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#daily_med.tests.test_request_paginator.TestRequestPaginator.test_call_return" title="Permalink to this definition">¶</a></dt>
-<dd><p>It should return the json decoded response.</p>
-</dd></dl>
-
-<dl class="method">
-<dt id="daily_med.tests.test_request_paginator.TestRequestPaginator.test_init_attrs">
-<code class="descname">test_init_attrs</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/daily_med/tests/test_request_paginator.html#TestRequestPaginator.test_init_attrs"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#daily_med.tests.test_request_paginator.TestRequestPaginator.test_init_attrs" title="Permalink to this definition">¶</a></dt>
-<dd><p>It should correctly assign instance attributes.</p>
-</dd></dl>
-
-<dl class="method">
-<dt id="daily_med.tests.test_request_paginator.TestRequestPaginator.test_init_session">
-<code class="descname">test_init_session</code><span class="sig-paren">(</span><em>*args</em>, <em>**keywargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/daily_med/tests/test_request_paginator.html#TestRequestPaginator.test_init_session"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#daily_med.tests.test_request_paginator.TestRequestPaginator.test_init_session" title="Permalink to this definition">¶</a></dt>
-<dd><p>It should initialize a requests session.</p>
-</dd></dl>
-
-<dl class="method">
-<dt id="daily_med.tests.test_request_paginator.TestRequestPaginator.test_iter">
-<code class="descname">test_iter</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/daily_med/tests/test_request_paginator.html#TestRequestPaginator.test_iter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#daily_med.tests.test_request_paginator.TestRequestPaginator.test_iter" title="Permalink to this definition">¶</a></dt>
-<dd><p>It should iterate until the end &amp; yield data.</p>
-</dd></dl>
-
-</dd></dl>
-
-</div>
-<div class="section" id="module-daily_med.tests.test_spl_document">
-<span id="daily-med-tests-test-spl-document-module"></span><h2>daily_med.tests.test_spl_document module<a class="headerlink" href="#module-daily_med.tests.test_spl_document" title="Permalink to this headline">¶</a></h2>
-<dl class="class">
-<dt id="daily_med.tests.test_spl_document.TestSPLDocument">
-<em class="property">class </em><code class="descclassname">daily_med.tests.test_spl_document.</code><code class="descname">TestSPLDocument</code><span class="sig-paren">(</span><em>methodName='runTest'</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/daily_med/tests/test_spl_document.html#TestSPLDocument"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#daily_med.tests.test_spl_document.TestSPLDocument" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">unittest.case.TestCase</span></code></p>
-<dl class="attribute">
-<dt id="daily_med.tests.test_spl_document.TestSPLDocument.TEST_DIR">
-<code class="descname">TEST_DIR</code><em class="property"> = '/home/travis/build/LasLabs/python-daily-med/daily_med/tests'</em><a class="headerlink" href="#daily_med.tests.test_spl_document.TestSPLDocument.TEST_DIR" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="attribute">
-<dt id="daily_med.tests.test_spl_document.TestSPLDocument.TEST_FILES">
-<code class="descname">TEST_FILES</code><em class="property"> = ['spl_doc_1.xml', 'spl_doc_1.xml']</em><a class="headerlink" href="#daily_med.tests.test_spl_document.TestSPLDocument.TEST_FILES" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="method">
-<dt id="daily_med.tests.test_spl_document.TestSPLDocument.test_get_all_values">
-<code class="descname">test_get_all_values</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/daily_med/tests/test_spl_document.html#TestSPLDocument.test_get_all_values"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#daily_med.tests.test_spl_document.TestSPLDocument.test_get_all_values" title="Permalink to this definition">¶</a></dt>
-<dd><p>It should return a list of the node values.</p>
-</dd></dl>
-
-<dl class="method">
-<dt id="daily_med.tests.test_spl_document.TestSPLDocument.test_parse">
-<code class="descname">test_parse</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/daily_med/tests/test_spl_document.html#TestSPLDocument.test_parse"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#daily_med.tests.test_spl_document.TestSPLDocument.test_parse" title="Permalink to this definition">¶</a></dt>
-<dd><p>It should parse the sample files without errors.</p>
-</dd></dl>
-
-<dl class="method">
-<dt id="daily_med.tests.test_spl_document.TestSPLDocument.test_parse_string">
-<code class="descname">test_parse_string</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/daily_med/tests/test_spl_document.html#TestSPLDocument.test_parse_string"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#daily_med.tests.test_spl_document.TestSPLDocument.test_parse_string" title="Permalink to this definition">¶</a></dt>
-<dd><p>It should parse the sample files as string without errors.</p>
-</dd></dl>
-
-</dd></dl>
-
 </div>
 <div class="section" id="module-daily_med.tests">
 <span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-daily_med.tests" title="Permalink to this headline">¶</a></h2>
@@ -225,19 +102,12 @@
 <li class="toctree-l3"><a class="reference internal" href="daily_med.models.html">daily_med.models package</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">daily_med.tests package</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#submodules">Submodules</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#module-daily_med.tests.test_daily_med">daily_med.tests.test_daily_med module</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#module-daily_med.tests.test_request_paginator">daily_med.tests.test_request_paginator module</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#module-daily_med.tests.test_spl_document">daily_med.tests.test_spl_document module</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#module-daily_med.tests">Module contents</a></li>
 </ul>
 </li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="daily_med.html#submodules">Submodules</a></li>
-<li class="toctree-l2"><a class="reference internal" href="daily_med.html#module-daily_med.daily_med">daily_med.daily_med module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="daily_med.html#module-daily_med.exceptions">daily_med.exceptions module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="daily_med.html#module-daily_med.hl7">daily_med.hl7 module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="daily_med.html#module-daily_med.request_paginator">daily_med.request_paginator module</a></li>
 <li class="toctree-l2"><a class="reference internal" href="daily_med.html#module-daily_med">Module contents</a></li>
 </ul>
 </li>

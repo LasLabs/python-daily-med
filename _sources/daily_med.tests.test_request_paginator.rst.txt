@@ -1,0 +1,7 @@
+daily_med.tests.test_request_paginator module
+=============================================
+
+.. automodule:: daily_med.tests.test_request_paginator
+    :members:
+    :undoc-members:
+    :show-inheritance:

@@ -1,0 +1,7 @@
+daily_med.daily_med module
+==========================
+
+.. automodule:: daily_med.daily_med
+    :members:
+    :undoc-members:
+    :show-inheritance:

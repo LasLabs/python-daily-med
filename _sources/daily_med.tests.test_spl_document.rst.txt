@@ -1,0 +1,7 @@
+daily_med.tests.test_spl_document module
+========================================
+
+.. automodule:: daily_med.tests.test_spl_document
+    :members:
+    :undoc-members:
+    :show-inheritance:

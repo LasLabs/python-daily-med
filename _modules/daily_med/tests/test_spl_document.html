@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>daily_med.tests.test_spl_document &#8212; python-daily-med 0.1.0b57 documentation</title>
+    <title>daily_med.tests.test_spl_document &#8212; python-daily-med 0.1.0b68 documentation</title>
     
     <link rel="stylesheet" href="../../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
@@ -14,7 +14,7 @@
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    '../../../',
-        VERSION:     '0.1.0b57',
+        VERSION:     '0.1.0b68',
         COLLAPSE_INDEX: false,
         FILE_SUFFIX: '.html',
         HAS_SOURCE:  true,
@@ -52,7 +52,7 @@
 <span class="kn">from</span> <span class="nn">..models.spl_document</span> <span class="k">import</span> <span class="n">parse</span><span class="p">,</span> <span class="n">parseString</span><span class="p">,</span> <span class="n">get_all_values</span>
 
 
-<div class="viewcode-block" id="TestSPLDocument"><a class="viewcode-back" href="../../../daily_med.tests.html#daily_med.tests.test_spl_document.TestSPLDocument">[docs]</a><span class="k">class</span> <span class="nc">TestSPLDocument</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">TestCase</span><span class="p">):</span>
+<div class="viewcode-block" id="TestSPLDocument"><a class="viewcode-back" href="../../../daily_med.tests.test_spl_document.html#daily_med.tests.test_spl_document.TestSPLDocument">[docs]</a><span class="k">class</span> <span class="nc">TestSPLDocument</span><span class="p">(</span><span class="n">unittest</span><span class="o">.</span><span class="n">TestCase</span><span class="p">):</span>
 
     <span class="n">TEST_FILES</span> <span class="o">=</span> <span class="p">[</span>
         <span class="s1">&#39;spl_doc_1.xml&#39;</span><span class="p">,</span>
@@ -67,7 +67,7 @@
         <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">test_file</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">fh</span><span class="p">:</span>
             <span class="k">return</span> <span class="n">parseString</span><span class="p">(</span><span class="n">fh</span><span class="o">.</span><span class="n">read</span><span class="p">(),</span> <span class="kc">True</span><span class="p">)</span>
 
-<div class="viewcode-block" id="TestSPLDocument.test_parse"><a class="viewcode-back" href="../../../daily_med.tests.html#daily_med.tests.test_spl_document.TestSPLDocument.test_parse">[docs]</a>    <span class="k">def</span> <span class="nf">test_parse</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<div class="viewcode-block" id="TestSPLDocument.test_parse"><a class="viewcode-back" href="../../../daily_med.tests.test_spl_document.html#daily_med.tests.test_spl_document.TestSPLDocument.test_parse">[docs]</a>    <span class="k">def</span> <span class="nf">test_parse</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot; It should parse the sample files without errors. &quot;&quot;&quot;</span>
         <span class="k">for</span> <span class="n">test_file</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">TEST_FILES</span><span class="p">:</span>
             <span class="n">spl_doc</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_parse_file</span><span class="p">(</span><span class="n">test_file</span><span class="p">,</span> <span class="n">as_string</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
@@ -75,7 +75,7 @@
             <span class="bp">self</span><span class="o">.</span><span class="n">assertTrue</span><span class="p">(</span><span class="n">spl_doc</span><span class="o">.</span><span class="n">title</span><span class="p">)</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">assertTrue</span><span class="p">(</span><span class="n">spl_doc</span><span class="o">.</span><span class="n">code</span><span class="o">.</span><span class="n">code</span><span class="p">)</span></div>
 
-<div class="viewcode-block" id="TestSPLDocument.test_parse_string"><a class="viewcode-back" href="../../../daily_med.tests.html#daily_med.tests.test_spl_document.TestSPLDocument.test_parse_string">[docs]</a>    <span class="k">def</span> <span class="nf">test_parse_string</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<div class="viewcode-block" id="TestSPLDocument.test_parse_string"><a class="viewcode-back" href="../../../daily_med.tests.test_spl_document.html#daily_med.tests.test_spl_document.TestSPLDocument.test_parse_string">[docs]</a>    <span class="k">def</span> <span class="nf">test_parse_string</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot; It should parse the sample files as string without errors. &quot;&quot;&quot;</span>
         <span class="k">for</span> <span class="n">test_file</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">TEST_FILES</span><span class="p">:</span>
             <span class="n">spl_doc</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_parse_file</span><span class="p">(</span><span class="n">test_file</span><span class="p">,</span> <span class="n">as_string</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -83,7 +83,7 @@
             <span class="bp">self</span><span class="o">.</span><span class="n">assertTrue</span><span class="p">(</span><span class="n">spl_doc</span><span class="o">.</span><span class="n">title</span><span class="p">)</span>
             <span class="bp">self</span><span class="o">.</span><span class="n">assertTrue</span><span class="p">(</span><span class="n">spl_doc</span><span class="o">.</span><span class="n">code</span><span class="o">.</span><span class="n">code</span><span class="p">)</span></div>
 
-<div class="viewcode-block" id="TestSPLDocument.test_get_all_values"><a class="viewcode-back" href="../../../daily_med.tests.html#daily_med.tests.test_spl_document.TestSPLDocument.test_get_all_values">[docs]</a>    <span class="k">def</span> <span class="nf">test_get_all_values</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<div class="viewcode-block" id="TestSPLDocument.test_get_all_values"><a class="viewcode-back" href="../../../daily_med.tests.test_spl_document.html#daily_med.tests.test_spl_document.TestSPLDocument.test_get_all_values">[docs]</a>    <span class="k">def</span> <span class="nf">test_get_all_values</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot; It should return a list of the node values. &quot;&quot;&quot;</span>
         <span class="n">spl_doc</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_parse_file</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">TEST_FILES</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
         <span class="n">expect</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;RENESE&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\n\t\t</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\n\t\t</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;(polythiazide)&#39;</span><span class="p">,</span>

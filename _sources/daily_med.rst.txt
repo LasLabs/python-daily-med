@@ -12,38 +12,12 @@ Subpackages
 Submodules
 ----------
 
-daily_med.daily_med module
---------------------------
+.. toctree::
 
-.. automodule:: daily_med.daily_med
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-daily_med.exceptions module
----------------------------
-
-.. automodule:: daily_med.exceptions
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-daily_med.hl7 module
---------------------
-
-.. automodule:: daily_med.hl7
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-daily_med.request_paginator module
-----------------------------------
-
-.. automodule:: daily_med.request_paginator
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
+   daily_med.daily_med
+   daily_med.exceptions
+   daily_med.hl7
+   daily_med.request_paginator
 
 Module contents
 ---------------

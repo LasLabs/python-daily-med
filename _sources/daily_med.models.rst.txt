@@ -4,22 +4,10 @@ daily_med.models package
 Submodules
 ----------
 
-daily_med.models.spl module
----------------------------
+.. toctree::
 
-.. automodule:: daily_med.models.spl
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-daily_med.models.spl_document module
-------------------------------------
-
-.. automodule:: daily_med.models.spl_document
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
+   daily_med.models.spl
+   daily_med.models.spl_document
 
 Module contents
 ---------------
