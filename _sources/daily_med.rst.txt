@@ -28,6 +28,14 @@ daily_med.exceptions module
     :undoc-members:
     :show-inheritance:
 
+daily_med.hl7 module
+--------------------
+
+.. automodule:: daily_med.hl7
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
 daily_med.request_paginator module
 ----------------------------------
 

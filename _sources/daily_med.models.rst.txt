@@ -4,18 +4,18 @@ daily_med.models package
 Submodules
 ----------
 
-daily_med.models.base_model module
-----------------------------------
-
-.. automodule:: daily_med.models.base_model
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
 daily_med.models.spl module
 ---------------------------
 
 .. automodule:: daily_med.models.spl
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+daily_med.models.spl_document module
+------------------------------------
+
+.. automodule:: daily_med.models.spl_document
     :members:
     :undoc-members:
     :show-inheritance:

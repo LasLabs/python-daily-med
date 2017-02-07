@@ -4,14 +4,6 @@ daily_med.tests package
 Submodules
 ----------
 
-daily_med.tests.test_base_model module
---------------------------------------
-
-.. automodule:: daily_med.tests.test_base_model
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
 daily_med.tests.test_daily_med module
 -------------------------------------
 

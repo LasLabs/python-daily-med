@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>daily_med.models package &#8212; python-daily-med 0.1.0b41 documentation</title>
+    <title>daily_med.models package &#8212; python-daily-med 0.1.0b46 documentation</title>
     
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -14,7 +14,7 @@
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
-        VERSION:     '0.1.0b41',
+        VERSION:     '0.1.0b46',
         COLLAPSE_INDEX: false,
         FILE_SUFFIX: '.html',
         HAS_SOURCE:  true,
@@ -48,52 +48,14 @@
 <div class="section" id="submodules">
 <h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
 </div>
-<div class="section" id="module-daily_med.models.base_model">
-<span id="daily-med-models-base-model-module"></span><h2>daily_med.models.base_model module<a class="headerlink" href="#module-daily_med.models.base_model" title="Permalink to this headline">¶</a></h2>
-<dl class="class">
-<dt id="daily_med.models.base_model.BaseModel">
-<em class="property">class </em><code class="descclassname">daily_med.models.base_model.</code><code class="descname">BaseModel</code><a class="reference internal" href="_modules/daily_med/models/base_model.html#BaseModel"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#daily_med.models.base_model.BaseModel" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference external" href="https://docs.python.org/2/library/stdtypes.html#dict" title="(in Python v2.7)"><code class="xref py py-class docutils literal"><span class="pre">dict</span></code></a></p>
-<p>BaseModel provides a core for all model objects.</p>
-<dl class="attribute">
-<dt id="daily_med.models.base_model.BaseModel.DATE_FMT">
-<code class="descname">DATE_FMT</code><em class="property"> = '%b %d, %Y'</em><a class="headerlink" href="#daily_med.models.base_model.BaseModel.DATE_FMT" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="method">
-<dt id="daily_med.models.base_model.BaseModel.date_to_str">
-<code class="descname">date_to_str</code><span class="sig-paren">(</span><em>date_obj</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/daily_med/models/base_model.html#BaseModel.date_to_str"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#daily_med.models.base_model.BaseModel.date_to_str" title="Permalink to this definition">¶</a></dt>
-<dd><p>date_to_str returns a str representation of the date.</p>
-</dd></dl>
-
-<dl class="method">
-<dt id="daily_med.models.base_model.BaseModel.str_to_date">
-<code class="descname">str_to_date</code><span class="sig-paren">(</span><em>date_str</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/daily_med/models/base_model.html#BaseModel.str_to_date"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#daily_med.models.base_model.BaseModel.str_to_date" title="Permalink to this definition">¶</a></dt>
-<dd><p>str_to_date returns a date obj representing date_str.</p>
-</dd></dl>
-
-</dd></dl>
-
+<div class="section" id="daily-med-models-spl-module">
+<h2>daily_med.models.spl module<a class="headerlink" href="#daily-med-models-spl-module" title="Permalink to this headline">¶</a></h2>
 </div>
-<div class="section" id="module-daily_med.models.spl">
-<span id="daily-med-models-spl-module"></span><h2>daily_med.models.spl module<a class="headerlink" href="#module-daily_med.models.spl" title="Permalink to this headline">¶</a></h2>
-<dl class="class">
-<dt id="daily_med.models.spl.SPLDocument">
-<em class="property">class </em><code class="descclassname">daily_med.models.spl.</code><code class="descname">SPLDocument</code><span class="sig-paren">(</span><em>xml</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/daily_med/models/spl.html#SPLDocument"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#daily_med.models.spl.SPLDocument" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="#daily_med.models.base_model.BaseModel" title="daily_med.models.base_model.BaseModel"><code class="xref py py-class docutils literal"><span class="pre">daily_med.models.base_model.BaseModel</span></code></a></p>
-<p>SPLDocument provides the data for a Structured Product Label</p>
-</dd></dl>
-
-<dl class="class">
-<dt id="daily_med.models.spl.SPLMeta">
-<em class="property">class </em><code class="descclassname">daily_med.models.spl.</code><code class="descname">SPLMeta</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/daily_med/models/spl.html#SPLMeta"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#daily_med.models.spl.SPLMeta" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="#daily_med.models.base_model.BaseModel" title="daily_med.models.base_model.BaseModel"><code class="xref py py-class docutils literal"><span class="pre">daily_med.models.base_model.BaseModel</span></code></a></p>
-<p>SPLMeta provides the metadata for a Structured Product Label</p>
-</dd></dl>
-
+<div class="section" id="daily-med-models-spl-document-module">
+<h2>daily_med.models.spl_document module<a class="headerlink" href="#daily-med-models-spl-document-module" title="Permalink to this headline">¶</a></h2>
 </div>
-<div class="section" id="module-daily_med.models">
-<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-daily_med.models" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="module-contents">
+<h2>Module contents<a class="headerlink" href="#module-contents" title="Permalink to this headline">¶</a></h2>
 </div>
 </div>
 
@@ -138,19 +100,20 @@
 <li class="toctree-l2 current"><a class="reference internal" href="daily_med.html#subpackages">Subpackages</a><ul class="current">
 <li class="toctree-l3 current"><a class="current reference internal" href="#">daily_med.models package</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#submodules">Submodules</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#module-daily_med.models.base_model">daily_med.models.base_model module</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#module-daily_med.models.spl">daily_med.models.spl module</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#module-daily_med.models">Module contents</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#daily-med-models-spl-module">daily_med.models.spl module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#daily-med-models-spl-document-module">daily_med.models.spl_document module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-contents">Module contents</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="daily_med.tests.html">daily_med.tests package</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="daily_med.html#submodules">Submodules</a></li>
-<li class="toctree-l2"><a class="reference internal" href="daily_med.html#module-daily_med.daily_med">daily_med.daily_med module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="daily_med.html#module-daily_med.exceptions">daily_med.exceptions module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="daily_med.html#module-daily_med.request_paginator">daily_med.request_paginator module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="daily_med.html#module-daily_med">Module contents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="daily_med.html#daily-med-daily-med-module">daily_med.daily_med module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="daily_med.html#daily-med-exceptions-module">daily_med.exceptions module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="daily_med.html#daily-med-hl7-module">daily_med.hl7 module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="daily_med.html#daily-med-request-paginator-module">daily_med.request_paginator module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="daily_med.html#module-contents">Module contents</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="setup.html">setup module</a></li>
