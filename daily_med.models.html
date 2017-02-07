@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>daily_med.models package &#8212; python-daily-med 0.1.0b70 documentation</title>
+    <title>daily_med.models package &#8212; python-daily-med 0.1.0b72 documentation</title>
     
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -14,7 +14,7 @@
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
-        VERSION:     '0.1.0b70',
+        VERSION:     '0.1.0b72',
         COLLAPSE_INDEX: false,
         FILE_SUFFIX: '.html',
         HAS_SOURCE:  true,
@@ -56,6 +56,67 @@
 </div>
 <div class="section" id="module-daily_med.models">
 <span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-daily_med.models" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="daily_med.models.SPL">
+<em class="property">class </em><code class="descclassname">daily_med.models.</code><code class="descname">SPL</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/daily_med/models/spl.html#SPL"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#daily_med.models.SPL" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">properties.base.HasProperties</span></code></p>
+<p>SPL provides Structured Product Label meta + document.</p>
+<p><strong>Required</strong></p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>published_date</strong> (<code class="xref py py-class docutils literal"><span class="pre">DateTime</span></code>) &#8211; Published Date, a datetime object</li>
+<li><strong>set_id</strong> (<code class="xref py py-class docutils literal"><span class="pre">String</span></code>) &#8211; Set ID, a string</li>
+<li><strong>spl_version</strong> (<code class="xref py py-class docutils literal"><span class="pre">String</span></code>) &#8211; Version, a string</li>
+<li><strong>title</strong> (<code class="xref py py-class docutils literal"><span class="pre">String</span></code>) &#8211; Title, a string</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Optional</strong></p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>document</strong> (<a class="reference internal" href="daily_med.models.spl_document.html#daily_med.models.spl_document.POCP_MT050100UV_Document" title="daily_med.models.spl_document.POCP_MT050100UV_Document"><code class="xref py py-class docutils literal"><span class="pre">POCP_MT050100UV_Document</span></code></a>) &#8211; Structured Product Label Document, an instance of POCP_MT050100UV_Document</td>
+</tr>
+</tbody>
+</table>
+<dl class="attribute">
+<dt id="daily_med.models.SPL.document">
+<code class="descname">document</code><a class="headerlink" href="#daily_med.models.SPL.document" title="Permalink to this definition">¶</a></dt>
+<dd><p>Structured Product Label Document</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="daily_med.models.SPL.published_date">
+<code class="descname">published_date</code><a class="headerlink" href="#daily_med.models.SPL.published_date" title="Permalink to this definition">¶</a></dt>
+<dd><p>Published Date</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="daily_med.models.SPL.set_id">
+<code class="descname">set_id</code><a class="headerlink" href="#daily_med.models.SPL.set_id" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set ID</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="daily_med.models.SPL.spl_version">
+<code class="descname">spl_version</code><a class="headerlink" href="#daily_med.models.SPL.spl_version" title="Permalink to this definition">¶</a></dt>
+<dd><p>Version</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="daily_med.models.SPL.title">
+<code class="descname">title</code><a class="headerlink" href="#daily_med.models.SPL.title" title="Permalink to this definition">¶</a></dt>
+<dd><p>Title</p>
+</dd></dl>
+
+</dd></dl>
+
 </div>
 </div>
 
