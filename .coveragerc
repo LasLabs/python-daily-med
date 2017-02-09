@@ -22,6 +22,7 @@ omit =
     setup.py
     */__init__.py
     tests.py
+    daily_med/models/spl_document.py
 
 [xml]
 

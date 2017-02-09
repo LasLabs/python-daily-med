@@ -7,31 +7,26 @@ language: python
 
 python:
   - "2.7"
-
-virtualenv:
-  system_site_packages: true
+  - "pypy-5.4"
 
 env:
   global:
-    - PROJECT="{{ Project Name }}"
-    - VERSION="{{ Version }}"
-    - RELEASE="{{ Release }}"
-    - BRANCH_PROD="master"
-    - BRANCH_DOC="gh-pages"
-    - TESTS="0"
-    - LINT_CHECK="0"
-    - DOCS="0"
-    - PYPI="0"
-    # Generate this per repo with the following:
-    #   travis encrypt 'PYPI_PASSWORD="$PYPI_PASSWORD"'-r LasLabs/repo-name
-    - secure: "$PYPI_TOKEN"
+    - PROJECT="python-daily-med"
+    - VERSION="0.1"
+    - RELEASE="0.1.0"
+    - DOCS_PY_VERSION="2.7"
+    - DOCS_SEPARATE_PAGE="1"
+    - DOCS_AUTO_SUMMARY="1"
+    - BRANCH_PROD="release/initial"
+    - secure: "HLV0BXRFLZ8KnK9IyOJscPaccBTMhL27bHqluWFbq+hVZg2uYSe6c11ZDGLEZtSHxfv2j89p36t3f7Q+CTfeWQUy2uOz4ZQLxc9SJ+AxkxzM6La8rS3bKwXYgYA0MXiD4wQ5+Ou3S+cZ0IoRUyG2AnWizsciGnM8/rRK2sgKpeghFSeD1oGdAvIukq/YpqyFOBUzeHPE/6uOKgICL3Ho22K+ny+Xgx3u7i1pcbCXZQX0uRS2FrVzwkJK7vOzXAHl8kQohqwyUrW2NfbnGE03KI3qpzVQfGKUPZnGXcjL3MoFXlEdBWXin/HFUGc9audTtvQm5sJ/O8QhuySJHM2f/klDk8KhYwCtUDFTKyRwjN5z9NrCvyTn/tSfnUkVRzBeuySaEA3fpZTK7YzvnBxgouvDgb6W0cf3bkhM8JzYyE1oYrELuN/u4ofPOkcvjgDQhQGgbsVie99lTgvkMhgdRndLzawQO8Fzq1zR6OBoNWx+V0adve5sfdbKQxTbZ1ChXXSSI5tcpozhebdwbOMWRz3wrRCX52P78R+ItKiWxN3SUSNkGk29q3YjXn2vck1q7Wgr9bi+VYJibCfe0EVONYxY69bHia+ymXyQW85YGf0D2IiOzxTzRgo+D3YaRypv+MPTXwvaADxQd4WhLo/doO9bjGfrwGf07QxZzett1/A="
   matrix:
     - TESTS="1"
     - PYPI="1"
     - DOCS="1"
+    - LINT_CHECK="1"
 
 install:
-  - git clone --depth=1 https://github.com/LasLabs/python-quality-tools.git ${HOME}/python-quality-tools
+  - git clone --depth=1 https://github.com/LasLabs/python-quality-tools.git -b feature/docs-sep-page ${HOME}/python-quality-tools
   - export PATH=${HOME}/python-quality-tools/travis:${PATH}
   - travis_install
 

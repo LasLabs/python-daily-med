@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="http://www.fda.gov/oc/datacouncil/stylesheets/spl/spl.xsl" type="text/xsl"?>
+<document xmlns:voc="http://www.hl7.org/v3/voc" xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 http://www.fda.gov/oc/datacouncil/schemas/spl/spl.xsd">
+	<id root="ABD6ECF0-DC8E-41DE-89F2-1E36ED9D6535"/>
+	<code code="34391-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="HUMAN PRESCRIPTION DRUG LABELING"/>
+	<title mediaType="text/x-hl7-title+xml">RENESE<sup>&#174;</sup>
+		<br/>
+		<br/>(polythiazide)<br/>
+		<br/>TABLETS<br/>
+		<br/>for Oral Administration</title>
+	<effectiveTime value="20051214"/>
+	<setId root="ABD6ECF0-DC8E-41DE-89F2-1E36ED9D6535"/>
+	<versionNumber value="1"/>
+	<author>
+		<time/>
+		<assignedEntity>
+			<representedOrganization>
+				<name>Pfizer Labs</name>
+			</representedOrganization>
+		</assignedEntity>
+	</author>
+	<component>
+		<structuredBody>
+			<component>
+				<section>
+					<id root="BE62BAFB-DE39-4AE9-958D-3966F0878187"/>
+					<effectiveTime value="20051214"/>
+					<subject>
+						<manufacturedProduct>
+							<manufacturedMedicine>
+								<code code="0069-3750" codeSystem="2.16.840.1.113883.6.69" codeSystemName="FDA" displayName="NDC"/>
+								<name>Renese</name>
+								<formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+								<activeIngredient>
+									<quantity>
+										<numerator unit="mg" value="1">
+											<translation code="C28253" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MILLIGRAM" value="1"/>
+										</numerator>
+										<denominator value="1">
+											<translation code="C48542" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET" value="1"/>
+										</denominator>
+									</quantity>
+									<activeIngredientSubstance>
+										<code code="36780APV5N" codeSystem="2.16.840.1.113883.4.9" codeSystemName="FDA SRS"/>
+										<name>polythiazide</name>
+										<activeMoiety>
+											<activeMoiety>
+												<code code="36780APV5N" codeSystem="2.16.840.1.113883.4.9" codeSystemName="FDA SRS"/>
+												<name>polythiazide</name>
+											</activeMoiety>
+										</activeMoiety>
+									</activeIngredientSubstance>
+								</activeIngredient>
+								<asEntityWithGeneric>
+									<genericMedicine>
+										<name>polythiazide</name>
+									</genericMedicine>
+								</asEntityWithGeneric>
+								<inactiveIngredient>
+									<inactiveIngredientSubstance>
+										<name>dibasic calcium phosphate</name>
+									</inactiveIngredientSubstance>
+								</inactiveIngredient>
+								<inactiveIngredient>
+									<inactiveIngredientSubstance>
+										<name>lactose</name>
+									</inactiveIngredientSubstance>
+								</inactiveIngredient>
+								<inactiveIngredient>
+									<inactiveIngredientSubstance>
+										<name>magnesium stearate</name>
+									</inactiveIngredientSubstance>
+								</inactiveIngredient>
+								<inactiveIngredient>
+									<inactiveIngredientSubstance>
+										<name>polyethylene glycol</name>
+									</inactiveIngredientSubstance>
+								</inactiveIngredient>
+								<inactiveIngredient>
+									<inactiveIngredientSubstance>
+										<name>sodium lauryl sulfate</name>
+									</inactiveIngredientSubstance>
+								</inactiveIngredient>
+								<inactiveIngredient>
+									<inactiveIngredientSubstance>
+										<name>starch</name>
+									</inactiveIngredientSubstance>
+								</inactiveIngredient>
+								<inactiveIngredient>
+									<inactiveIngredientSubstance>
+										<name>vanillin</name>
+									</inactiveIngredientSubstance>
+								</inactiveIngredient>
+								<asContent>
+									<quantity>
+										<numerator value="100">
+											<translation code="C48542" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET" value="100"/>
+										</numerator>
+										<denominator>
+											<translation value="1"/>
+										</denominator>
+									</quantity>
+									<containerPackagedMedicine>
+										<code code="0069-3750-66" codeSystem="2.16.840.1.113883.6.69" codeSystemName="FDA" displayName="NDC"/>
+										<formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+									</containerPackagedMedicine>
+								</asContent>
+							</manufacturedMedicine>
+							<subjectOf>
+								<characteristic classCode="OBS">
+									<code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+									<value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="WHITE" xsi:type="CE">
+										<originalText>White</originalText>
+									</value>
+								</characteristic>
+							</subjectOf>
+							<subjectOf>
+								<characteristic classCode="OBS">
+									<code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+									<value value="2" xsi:type="INT"/>
+								</characteristic>
+							</subjectOf>
+							<subjectOf>
+								<characteristic classCode="OBS">
+									<code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+									<value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE">
+										<originalText>Round</originalText>
+									</value>
+								</characteristic>
+							</subjectOf>
+							<subjectOf>
+								<characteristic classCode="OBS">
+									<code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+									<value unit="mm" value="7" xsi:type="PQ"/>
+								</characteristic>
+							</subjectOf>
+							<subjectOf>
+								<characteristic classCode="OBS">
+									<code code="SPLCOATING" codeSystem="2.16.840.1.113883.1.11.19255"/>
+									<value value="false" xsi:type="BL"/>
+								</characteristic>
+							</subjectOf>
+							<subjectOf>
+								<characteristic classCode="OBS">
+									<code code="SPLSYMBOL" codeSystem="2.16.840.1.113883.1.11.19255"/>
+									<value value="false" xsi:type="BL"/>
+								</characteristic>
+							</subjectOf>
+							<subjectOf>
+								<characteristic classCode="OBS">
+									<code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+									<value xsi:type="ST">Pfizer;375</value>
+								</characteristic>
+							</subjectOf>
+							<consumedIn>
+								<substanceAdministration>
+									<routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+								</substanceAdministration>
+							</consumedIn>
+						</manufacturedProduct>
+					</subject>
+					<subject>
+						<manufacturedProduct>
+							<manufacturedMedicine>
+								<code code="0069-3760" codeSystem="2.16.840.1.113883.6.69" codeSystemName="FDA" displayName="NDC"/>
+								<name>Renese</name>
+								<formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+								<activeIngredient>
+									<quantity>
+										<numerator unit="mg" value="2">
+											<translation code="C28253" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MILLIGRAM" value="2"/>
+										</numerator>
+										<denominator value="1">
+											<translation code="C48542" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET" value="1"/>
+										</denominator>
+									</quantity>
+									<activeIngredientSubstance>
+										<code code="36780APV5N" codeSystem="2.16.840.1.113883.4.9" codeSystemName="FDA SRS"/>
+										<name>polythiazide</name>
+										<activeMoiety>
+											<activeMoiety>
+												<code code="36780APV5N" codeSystem="2.16.840.1.113883.4.9" codeSystemName="FDA SRS"/>
+												<name>polythiazide</name>
+											</activeMoiety>
+										</activeMoiety>
+									</activeIngredientSubstance>
+								</activeIngredient>
+								<asEntityWithGeneric>
+									<genericMedicine>
+										<name>polythiazide</name>
+									</genericMedicine>
+								</asEntityWithGeneric>
+								<inactiveIngredient>
+									<inactiveIngredientSubstance>
+										<name>dibasic calcium phosphate</name>
+									</inactiveIngredientSubstance>
+								</inactiveIngredient>
+								<inactiveIngredient>
+									<inactiveIngredientSubstance>
+										<name>lactose</name>
+									</inactiveIngredientSubstance>
+								</inactiveIngredient>
+								<inactiveIngredient>
+									<inactiveIngredientSubstance>
+										<name>magnesium stearate</name>
+									</inactiveIngredientSubstance>
+								</inactiveIngredient>
+								<inactiveIngredient>
+									<inactiveIngredientSubstance>
+										<name>polyethylene glycol</name>
+									</inactiveIngredientSubstance>
+								</inactiveIngredient>
+								<inactiveIngredient>
+									<inactiveIngredientSubstance>
+										<name>sodium lauryl sulfate</name>
+									</inactiveIngredientSubstance>
+								</inactiveIngredient>
+								<inactiveIngredient>
+									<inactiveIngredientSubstance>
+										<name>starch</name>
+									</inactiveIngredientSubstance>
+								</inactiveIngredient>
+								<inactiveIngredient>
+									<inactiveIngredientSubstance>
+										<name>vanillin</name>
+									</inactiveIngredientSubstance>
+								</inactiveIngredient>
+								<inactiveIngredient>
+									<inactiveIngredientSubstance>
+										<name>yellow 6</name>
+									</inactiveIngredientSubstance>
+								</inactiveIngredient>
+								<inactiveIngredient>
+									<inactiveIngredientSubstance>
+										<name>yellow 10</name>
+									</inactiveIngredientSubstance>
+								</inactiveIngredient>
+								<asContent>
+									<quantity>
+										<numerator value="100">
+											<translation code="C48542" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET" value="100"/>
+										</numerator>
+										<denominator>
+											<translation value="1"/>
+										</denominator>
+									</quantity>
+									<containerPackagedMedicine>
+										<code code="0069-3760-66" codeSystem="2.16.840.1.113883.6.69" codeSystemName="FDA" displayName="NDC"/>
+										<formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+									</containerPackagedMedicine>
+								</asContent>
+							</manufacturedMedicine>
+							<subjectOf>
+								<characteristic classCode="OBS">
+									<code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+									<value code="C48330" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="YELLOW" xsi:type="CE">
+										<originalText>Yellow</originalText>
+									</value>
+								</characteristic>
+							</subjectOf>
+							<subjectOf>
+								<characteristic classCode="OBS">
+									<code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+									<value value="2" xsi:type="INT"/>
+								</characteristic>
+							</subjectOf>
+							<subjectOf>
+								<characteristic classCode="OBS">
+									<code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+									<value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE">
+										<originalText>Round</originalText>
+									</value>
+								</characteristic>
+							</subjectOf>
+							<subjectOf>
+								<characteristic classCode="OBS">
+									<code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+									<value unit="mm" value="9" xsi:type="PQ"/>
+								</characteristic>
+							</subjectOf>
+							<subjectOf>
+								<characteristic classCode="OBS">
+									<code code="SPLCOATING" codeSystem="2.16.840.1.113883.1.11.19255"/>
+									<value value="false" xsi:type="BL"/>
+								</characteristic>
+							</subjectOf>
+							<subjectOf>
+								<characteristic classCode="OBS">
+									<code code="SPLSYMBOL" codeSystem="2.16.840.1.113883.1.11.19255"/>
+									<value value="false" xsi:type="BL"/>
+								</characteristic>
+							</subjectOf>
+							<subjectOf>
+								<characteristic classCode="OBS">
+									<code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+									<value xsi:type="ST">Pfizer;376</value>
+								</characteristic>
+							</subjectOf>
+							<consumedIn>
+								<substanceAdministration>
+									<routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+								</substanceAdministration>
+							</consumedIn>
+						</manufacturedProduct>
+					</subject>
+					<subject>
+						<manufacturedProduct>
+							<manufacturedMedicine>
+								<code code="0069-3770" codeSystem="2.16.840.1.113883.6.69" codeSystemName="FDA" displayName="NDC"/>
+								<name>Renese</name>
+								<formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+								<activeIngredient>
+									<quantity>
+										<numerator unit="mg" value="4">
+											<translation code="C28253" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MILLIGRAM" value="4"/>
+										</numerator>
+										<denominator value="1">
+											<translation code="C48542" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET" value="1"/>
+										</denominator>
+									</quantity>
+									<activeIngredientSubstance>
+										<code code="36780APV5N" codeSystem="2.16.840.1.113883.4.9" codeSystemName="FDA SRS"/>
+										<name>polythiazide</name>
+										<activeMoiety>
+											<activeMoiety>
+												<code code="36780APV5N" codeSystem="2.16.840.1.113883.4.9" codeSystemName="FDA SRS"/>
+												<name>polythiazide</name>
+											</activeMoiety>
+										</activeMoiety>
+									</activeIngredientSubstance>
+								</activeIngredient>
+								<asEntityWithGeneric>
+									<genericMedicine>
+										<name>polythiazide</name>
+									</genericMedicine>
+								</asEntityWithGeneric>
+								<inactiveIngredient>
+									<inactiveIngredientSubstance>
+										<name>dibasic calcium phosphate</name>
+									</inactiveIngredientSubstance>
+								</inactiveIngredient>
+								<inactiveIngredient>
+									<inactiveIngredientSubstance>
+										<name>lactose</name>
+									</inactiveIngredientSubstance>
+								</inactiveIngredient>
+								<inactiveIngredient>
+									<inactiveIngredientSubstance>
+										<name>magnesium stearate</name>
+									</inactiveIngredientSubstance>
+								</inactiveIngredient>
+								<inactiveIngredient>
+									<inactiveIngredientSubstance>
+										<name>polyethylene glycol</name>
+									</inactiveIngredientSubstance>
+								</inactiveIngredient>
+								<inactiveIngredient>
+									<inactiveIngredientSubstance>
+										<name>sodium lauryl sulfate</name>
+									</inactiveIngredientSubstance>
+								</inactiveIngredient>
+								<inactiveIngredient>
+									<inactiveIngredientSubstance>
+										<name>starch</name>
+									</inactiveIngredientSubstance>
+								</inactiveIngredient>
+								<inactiveIngredient>
+									<inactiveIngredientSubstance>
+										<name>vanillin</name>
+									</inactiveIngredientSubstance>
+								</inactiveIngredient>
+								<asContent>
+									<quantity>
+										<numerator value="100">
+											<translation code="C48542" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET" value="100"/>
+										</numerator>
+										<denominator>
+											<translation value="1"/>
+										</denominator>
+									</quantity>
+									<containerPackagedMedicine>
+										<code code="0069-3770-66" codeSystem="2.16.840.1.113883.6.69" codeSystemName="FDA" displayName="NDC"/>
+										<formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+									</containerPackagedMedicine>
+								</asContent>
+							</manufacturedMedicine>
+							<subjectOf>
+								<characteristic classCode="OBS">
+									<code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+									<value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="WHITE" xsi:type="CE">
+										<originalText>White</originalText>
+									</value>
+								</characteristic>
+							</subjectOf>
+							<subjectOf>
+								<characteristic classCode="OBS">
+									<code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+									<value value="2" xsi:type="INT"/>
+								</characteristic>
+							</subjectOf>
+							<subjectOf>
+								<characteristic classCode="OBS">
+									<code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+									<value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE">
+										<originalText>Round</originalText>
+									</value>
+								</characteristic>
+							</subjectOf>
+							<subjectOf>
+								<characteristic classCode="OBS">
+									<code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+									<value unit="mm" value="9" xsi:type="PQ"/>
+								</characteristic>
+							</subjectOf>
+							<subjectOf>
+								<characteristic classCode="OBS">
+									<code code="SPLCOATING" codeSystem="2.16.840.1.113883.1.11.19255"/>
+									<value value="false" xsi:type="BL"/>
+								</characteristic>
+							</subjectOf>
+							<subjectOf>
+								<characteristic classCode="OBS">
+									<code code="SPLSYMBOL" codeSystem="2.16.840.1.113883.1.11.19255"/>
+									<value value="false" xsi:type="BL"/>
+								</characteristic>
+							</subjectOf>
+							<subjectOf>
+								<characteristic classCode="OBS">
+									<code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+									<value xsi:type="ST">Pfizer;377</value>
+								</characteristic>
+							</subjectOf>
+							<consumedIn>
+								<substanceAdministration>
+									<routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+								</substanceAdministration>
+							</consumedIn>
+						</manufacturedProduct>
+					</subject>
+				</section>
+			</component>
+			<component>
+				<section>
+					<id root="42CB916B-BB58-44A0-B8D2-89B4B27F04DF"/>
+					<code code="34089-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="DESCRIPTION SECTION"/>
+					<title mediaType="text/x-hl7-title+xml">DESCRIPTION</title>
+					<text>
+						<paragraph>Renese<sup>&#174;</sup> is designated generically as polythiazide, and chemically as 2<content styleCode="italics">H</content>-1,2,4-Benzothiadiazine-7-sulfonamide, 6-chloro-3,4-dihydro-2-methyl-3-[[(2,2,2-trifluoroethyl)thio]methyl]-, 1,1-dioxide. It is a white crystalline substance, insoluble in water but readily soluble in alkaline solution.</paragraph>
+						<paragraph>Inert Ingredients: dibasic calcium phosphate; lactose; magnesium stearate; polyethylene glycol; sodium lauryl sulfate; starch; vanillin. The 2 mg tablets also contain: Yellow 6; Yellow 10.</paragraph>
+					</text>
+					<effectiveTime value="20051214"/>
+				</section>
+			</component>
+			<component>
+				<section>
+					<id root="CF5D392D-F637-417C-810A-7F0B3773264F"/>
+					<code code="42229-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="SPL UNCLASSIFIED SECTION"/>
+					<title mediaType="text/x-hl7-title+xml">ACTION</title>
+					<text>
+						<paragraph>The mechanism of action results in an interference with the renal tubular mechanism of electrolyte reabsorption. At maximal therapeutic dosage all thiazides are approximately equal in their diuretic potency. The mechanism whereby thiazides function in the control of hypertension is unknown.</paragraph>
+					</text>
+					<effectiveTime value="20051214"/>
+				</section>
+			</component>
+			<component>
+				<section>
+					<id root="35B892EE-D5E8-4BA4-8C51-CB2C3EFA012E"/>
+					<code code="34067-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="INDICATIONS &amp; USAGE SECTION"/>
+					<title mediaType="text/x-hl7-title+xml">INDICATIONS</title>
+					<text>
+						<paragraph>Renese is indicated as adjunctive therapy in edema associated with congestive heart failure, hepatic cirrhosis, and corticosteroid and estrogen therapy.</paragraph>
+						<paragraph>Renese has also been found useful in edema due to various forms of renal dysfunction as: Nephrotic syndrome; Acute glomerulonephritis; and Chronic renal failure.</paragraph>
+						<paragraph>Renese is indicated in the management of hypertension either as the sole therapeutic agent or to enhance the effectiveness of other antihypertensive drugs in the more severe forms of hypertension.</paragraph>
+					</text>
+					<effectiveTime value="20051214"/>
+					<component>
+						<section>
+							<id root="3B8CDEE1-A8D9-4F91-A557-5FB4CD8FA530"/>
+							<code code="42229-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="SPL UNCLASSIFIED SECTION"/>
+							<title mediaType="text/x-hl7-title+xml">Usage in Pregnancy</title>
+							<text>
+								<paragraph>The routine use of diuretics in an otherwise healthy woman is inappropriate and exposes mother and fetus to unnecessary hazard. Diuretics do not prevent development of toxemia of pregnancy, and there is no satisfactory evidence that they are useful in the treatment of developed toxemia.</paragraph>
+								<paragraph>Edema during pregnancy may arise from pathological causes or from the physiologic and mechanical consequences of pregnancy. Thiazides are indicated in pregnancy when edema is due to pathologic causes, just as they are in the absence of pregnancy (however, see <linkHtml href="#Warnings">Warnings</linkHtml>, below). Dependent edema in pregnancy, resulting from restriction of venous return by the expanded uterus, is properly treated through elevation of the lower extremities and use of support hose; use of diuretics to lower intravascular volume in this case is illogical and unnecessary. There is hypervolemia during normal pregnancy which is harmful to neither the fetus nor the mother (in the absence of cardiovascular disease), but which is associated with edema, including generalized edema, in the majority of pregnant women. If this edema produces discomfort, increased recumbency will often provide relief. In rare instances, this edema may cause extreme discomfort which is not relieved by rest. In these cases, a short course of diuretics may provide relief and may be appropriate.</paragraph>
+							</text>
+							<effectiveTime value="20051214"/>
+						</section>
+					</component>
+				</section>
+			</component>
+			<component>
+				<section>
+					<id root="01A7DE77-3A20-4E2C-ACAB-4BB7DB2972F2"/>
+					<code code="34070-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="CONTRAINDICATIONS SECTION"/>
+					<title mediaType="text/x-hl7-title+xml">CONTRAINDICATIONS</title>
+					<text>
+						<paragraph>Anuria. Hypersensitivity to this or other sulfonamide derived drugs.</paragraph>
+					</text>
+					<effectiveTime value="20051214"/>
+				</section>
+			</component>
+			<component>
+				<section ID="Warnings">
+					<id root="B3658A1E-7511-B04C-DB35-AFC9689F18ED"/>
+					<code code="34071-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="WARNINGS SECTION"/>
+					<title mediaType="text/x-hl7-title+xml">WARNINGS</title>
+					<text>
+						<paragraph>Thiazides should be used with caution in severe renal disease. In patients with renal disease, thiazides may precipitate azotemia. Cumulative effects of the drug may develop in patients with impaired renal function.</paragraph>
+						<paragraph>Thiazides should be used with caution in patients with impaired hepatic function or progressive liver disease, since minor alterations of fluid and electrolyte balance may precipitate hepatic coma.</paragraph>
+						<paragraph>Thiazides may add to or potentiate the action of other antihypertensive drugs. Potentiation occurs with ganglionic or peripheral adrenergic blocking drugs.</paragraph>
+						<paragraph>Sensitivity reactions may occur in patients with a history of allergy or bronchial asthma.</paragraph>
+						<paragraph>The possibility of exacerbation or activation of systemic lupus erythematosus has been reported.</paragraph>
+					</text>
+					<effectiveTime value="20060126"/>
+					<component>
+						<section>
+							<id root="E7F1F8F3-D4E4-9122-1BF1-C53CE54299F4"/>
+							<code code="42229-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="SPL UNCLASSIFIED SECTION"/>
+							<title mediaType="text/x-hl7-title+xml">Usage in Pregnancy</title>
+							<text>
+								<paragraph>Thiazides cross the placental barrier and appear in cord blood. The use of thiazides in pregnant women requires that the anticipated benefit be weighed against possible hazards to the fetus. These hazards include fetal or neonatal jaundice, thrombocytopenia, and possibly other adverse reactions which have occurred in the adult.</paragraph>
+							</text>
+							<effectiveTime value="20060126"/>
+						</section>
+					</component>
+					<component>
+						<section>
+							<id root="0E2154D9-A4CA-416C-BA8E-823E881FB395"/>
+							<code code="42229-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="SPL UNCLASSIFIED SECTION"/>
+							<title mediaType="text/x-hl7-title+xml">Nursing Mothers</title>
+							<text>
+								<paragraph>Thiazides appear in breast milk. If use of the drug is deemed essential, the patient should stop nursing.</paragraph>
+							</text>
+							<effectiveTime value="20051214"/>
+						</section>
+					</component>
+				</section>
+			</component>
+			<component>
+				<section>
+					<id root="06539983-48E2-4901-BDBD-DAB46DC0580E"/>
+					<code code="42232-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="PRECAUTIONS SECTION"/>
+					<title mediaType="text/x-hl7-title+xml">PRECAUTIONS</title>
+					<text>
+						<paragraph>Periodic determination of serum electrolytes to detect possible electrolyte imbalance should be performed at appropriate intervals.</paragraph>
+						<paragraph>All patients receiving thiazide therapy should be observed for clinical signs of fluid or electrolyte imbalance; namely, hyponatremia, hypochloremic alkalosis, and hypokalemia. Serum and urine electrolyte determinations are particularly important when the patient is vomiting excessively or receiving parenteral fluids. Medication such as digitalis may also influence serum electrolytes. Warning signs, irrespective of cause, are: dryness of mouth, thirst, weakness, lethargy, drowsiness, restlessness, muscle pains or cramps, muscular fatigue, hypotension, oliguria, tachycardia, and gastrointestinal disturbances such as nausea and vomiting.</paragraph>
+						<paragraph>Hypokalemia may develop with thiazides as with any other potent diuretic, especially with brisk diuresis, when severe cirrhosis is present, or during concomitant use of corticosteroids or ACTH.</paragraph>
+						<paragraph>Interference with adequate oral electrolyte intake will also contribute to hypokalemia. Digitalis therapy may exaggerate metabolic effects of hypokalemia especially with reference to myocardial activity.</paragraph>
+						<paragraph>Any chloride deficit is generally mild and usually does not require specific treatment except under extraordinary circumstances (as in liver disease or renal disease). Dilutional  hyponatremia may occur in edematous patients in hot weather; appropriate therapy is water restriction, rather than administration of salt except in rare instances when the hyponatremia is life threatening. In actual salt depletion, appropriate replacement is the therapy of choice.</paragraph>
+						<paragraph>Hyperuricemia may occur or frank gout may be precipitated in certain patients receiving thiazide therapy.</paragraph>
+						<paragraph>Insulin requirements in diabetic patients may be increased, decreased, or unchanged. Latent diabetes mellitus may become manifest during thiazide administration.</paragraph>
+						<paragraph>Thiazide drugs may increase the responsiveness to tubocurarine.</paragraph>
+						<paragraph>The antihypertensive effects of the drug may be enhanced in the postsympathectomy patient.</paragraph>
+						<paragraph>Thiazides may decrease arterial responsiveness to norepinephrine. This diminution is not sufficient to preclude effectiveness of the pressor agent for therapeutic use.</paragraph>
+						<paragraph>If progressive renal impairment becomes evident, as indicated by a rising nonprotein nitrogen or blood urea nitrogen, a careful reappraisal of therapy is necessary with consideration given to withholding or discontinuing diuretic therapy.</paragraph>
+						<paragraph>Thiazides may decrease serum PBI levels without signs of thyroid disturbance.</paragraph>
+					</text>
+					<effectiveTime value="20051214"/>
+					<component>
+						<section>
+							<id root="3D4BE493-5C3A-4F6B-936D-5EB79BBDFBA4"/>
+							<code code="42229-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="SPL UNCLASSIFIED SECTION"/>
+							<title mediaType="text/x-hl7-title+xml">Pediatric Use</title>
+							<text>
+								<paragraph>Safety and effectiveness in pediatric patients have not been established.</paragraph>
+							</text>
+							<effectiveTime value="20051214"/>
+						</section>
+					</component>
+				</section>
+			</component>
+			<component>
+				<section>
+					<id root="C1127DD9-F27B-4242-BDEA-0CE9A84BAA47"/>
+					<code code="34084-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ADVERSE REACTIONS SECTION"/>
+					<title mediaType="text/x-hl7-title+xml">ADVERSE REACTIONS</title>
+					<text>
+						<paragraph/>
+					</text>
+					<effectiveTime value="20051214"/>
+					<component>
+						<section>
+							<id root="B8CED426-ED6A-4CAD-8097-CC2438354591"/>
+							<code code="42229-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="SPL UNCLASSIFIED SECTION"/>
+							<title mediaType="text/x-hl7-title+xml">A. GASTROINTESTINAL SYSTEM REACTIONS</title>
+							<text>
+								<list listType="ordered">
+									<item> anorexia</item>
+									<item>gastric irritation</item>
+									<item> nausea</item>
+									<item> vomiting</item>
+									<item>cramping</item>
+									<item> diarrhea</item>
+									<item> constipation</item>
+									<item> jaundice (intrahepatic cholestatic jaundice)</item>
+									<item>pancreatitis</item>
+								</list>
+								<paragraph/>
+							</text>
+							<effectiveTime value="20051214"/>
+						</section>
+					</component>
+					<component>
+						<section>
+							<id root="13549293-1CA2-43F2-96E6-D9C5B34E61E4"/>
+							<code code="42229-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="SPL UNCLASSIFIED SECTION"/>
+							<title mediaType="text/x-hl7-title+xml">B. CENTRAL NERVOUS SYSTEM REACTIONS</title>
+							<text>
+								<list listType="ordered">
+									<item>dizziness</item>
+									<item>vertigo</item>
+									<item>paresthesias</item>
+									<item>headache</item>
+									<item> xanthopsia</item>
+								</list>
+								<paragraph/>
+							</text>
+							<effectiveTime value="20051214"/>
+						</section>
+					</component>
+					<component>
+						<section>
+							<id root="C3A1FD2C-D004-4572-8D68-1CFF772C940F"/>
+							<code code="42229-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="SPL UNCLASSIFIED SECTION"/>
+							<title mediaType="text/x-hl7-title+xml">C. HEMATOLOGIC REACTIONS</title>
+							<text>
+								<list listType="ordered">
+									<item>leukopenia</item>
+									<item>agranulocytosis</item>
+									<item>thrombocytopenia</item>
+									<item>aplastic anemia</item>
+								</list>
+								<paragraph/>
+							</text>
+							<effectiveTime value="20051214"/>
+						</section>
+					</component>
+					<component>
+						<section>
+							<id root="3F7CB2DF-EB0B-4760-9AF8-64D2904C8BE8"/>
+							<code code="42229-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="SPL UNCLASSIFIED SECTION"/>
+							<title mediaType="text/x-hl7-title+xml">D. DERMATOLOGIC&#8212;HYPERSENSITIVITY REACTIONS</title>
+							<text>
+								<list listType="ordered">
+									<item>purpura</item>
+									<item> photosensitivity</item>
+									<item>rash</item>
+									<item>urticaria</item>
+									<item>necrotizing angiitis<br/>
+										<br/>(vasculitis)<br/>
+										<br/>(cutaneous vasculitis)</item>
+								</list>
+								<paragraph/>
+							</text>
+							<effectiveTime value="20051214"/>
+						</section>
+					</component>
+					<component>
+						<section>
+							<id root="25580F79-4B13-495A-B11D-E5FB9FD82F03"/>
+							<code code="42229-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="SPL UNCLASSIFIED SECTION"/>
+							<title mediaType="text/x-hl7-title+xml">E. CARDIOVASCULAR REACTION</title>
+							<text>
+								<paragraph>Orthostatic hypotension may occur and may be aggravated by alcohol, barbiturates or narcotics.</paragraph>
+							</text>
+							<effectiveTime value="20051214"/>
+						</section>
+					</component>
+					<component>
+						<section>
+							<id root="6DA351DE-7B19-4362-8706-D68BC217130D"/>
+							<code code="42229-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="SPL UNCLASSIFIED SECTION"/>
+							<title mediaType="text/x-hl7-title+xml">F. OTHER</title>
+							<text>
+								<list listType="ordered">
+									<item>hyperglycemia</item>
+									<item>glycosuria</item>
+									<item>hyperuricemia</item>
+									<item>muscle spasm</item>
+									<item>weakness</item>
+									<item>restlessness</item>
+								</list>
+								<paragraph>Whenever adverse reactions are moderate or severe, thiazide dosage should be reduced or therapy withdrawn.</paragraph>
+							</text>
+							<effectiveTime value="20051214"/>
+						</section>
+					</component>
+				</section>
+			</component>
+			<component>
+				<section>
+					<id root="71D26C66-A812-43D7-B472-A3F7EF0294FC"/>
+					<code code="34068-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+					<title mediaType="text/x-hl7-title+xml">DOSAGE AND ADMINISTRATION</title>
+					<text>
+						<paragraph>Therapy should be individualized according to patient response. This therapy should be titrated to gain maximal therapeutic response as well as the minimal dose possible to maintain that therapeutic response. The usual dosage of Renese tablets for diuretic therapy is 1 to 4 mg daily, and for antihypertensive therapy is 2 to 4 mg daily.</paragraph>
+					</text>
+					<effectiveTime value="20051214"/>
+				</section>
+			</component>
+			<component>
+				<section>
+					<id root="F08C6A14-8165-458A-BDC8-0B5878EB814D"/>
+					<code code="34069-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="HOW SUPPLIED SECTION"/>
+					<title mediaType="text/x-hl7-title+xml">HOW SUPPLIED</title>
+					<text>
+						<paragraph>RENESE (polythiazide) Tablets are available as:</paragraph>
+						<paragraph>1 mg white, scored tablets in bottles of 100 (NDC 0069-3750-66).</paragraph>
+						<paragraph>2 mg yellow, scored tablets in bottles of 100 (NDC 0069-3760-66).</paragraph>
+						<paragraph>4 mg white, scored tablets in bottles of 100 (NDC 0069-3770-66).</paragraph>
+					</text>
+					<effectiveTime value="20051214"/>
+				</section>
+			</component>
+			<component>
+				<section>
+					<id root="178B02AD-B6F8-403F-93D5-92B1761C3274"/>
+					<code code="42229-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="SPL UNCLASSIFIED SECTION"/>
+					<title mediaType="text/x-hl7-title+xml"/>
+					<text>
+						<paragraph>
+							<content styleCode="bold">Rx Only</content>
+						</paragraph>
+						<renderMultiMedia referencedObject="MM1"/>
+						<paragraph>69-1116-00-6</paragraph>
+						<paragraph>April 1997</paragraph>
+					</text>
+					<effectiveTime value="20051214"/>
+					<component>
+						<observationMedia ID="MM1">
+							<value mediaType="image/jpeg" xsi:type="ED">
+								<reference value="renese-image01.jpg"/>
+							</value>
+						</observationMedia>
+					</component>
+				</section>
+			</component>
+		</structuredBody>
+	</component>
+</document>
